@@ -10,8 +10,7 @@ st.text("Spectacle prescription:  (1)myope (2)hypermetrope")
 st.text("Astigmatic: (1)No, (2)Yes")
 st.text("Tear production rate: (1) Reduced, (2) Normal")
 
-#image = Image.open('https://www.pexels.com/photo/person-holding-silver-wedding-band-5843337/')
-#st.image(image, use_column_width=True)
+
 st.subheader('Please fill in the details on the left sidebar and click on the button below!')
 
 
