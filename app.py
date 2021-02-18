@@ -2,8 +2,8 @@ import streamlit as st
 
 
 st.title('Contact Lens Fitting App')
-st.header("PROBLEM STATEMENT")
-st.text("This App would suggest the type of lens for an individual based on the following information:")
+st.header("Type of Contact Lens")
+st.subheader("This App would suggest the type of lens for an individual based on the following information:")
 st.text("Dataset used from UCI repository: https://archive.ics.uci.edu/ml/datasets/Lenses")
 st.text("Age group of the patient: (1)Young (2)Pre-presbyopic (3)Presbyopic")
 st.text("Spectacle prescription:  (1)myope (2)hypermetrope")
