@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title('Contact Lens Fitting App')
+st.title('Contact Lens Fitting Application')
 st.header("PROBLEM STATEMENT")
 st.text("This App would suggest the type of lens for an individual based on the following information:")
 st.text("Dataset used from UCI repository: https://archive.ics.uci.edu/ml/datasets/Lenses")
@@ -11,7 +11,7 @@ st.text("Astigmatic: (1)No, (2)Yes")
 st.text("Tear production rate: (1) Reduced, (2) Normal")
 
 #image = Image.open('https://www.pexels.com/photo/person-holding-silver-wedding-band-5843337/')
-#st.image(image, use_column_width=True)
+st.image('https://www.pexels.com/photo/person-holding-silver-wedding-band-5843337/', use_column_width=True)
 st.subheader('Please fill in the details on the left sidebar and click on the button below!')
 
 
