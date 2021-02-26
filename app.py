@@ -1,27 +1,21 @@
 import streamlit as st
 
-
-<<<<<<< HEAD
-st.title('Contact Lens Fitting Application')
-st.header("PROBLEM STATEMENT")
-st.text("This App would suggest the type of lens for an individual based on the following information:")
-=======
 st.title('Contact Lens Fitting App')
 st.header("Type of Contact Lens")
+st.image('https://www.pexels.com/photo/person-holding-silver-wedding-band-5843337/', use_column_width=True)
+
 st.subheader("This App would suggest the type of lens for an individual based on the following information:")
->>>>>>> 707d7bca8c37ea75f3ff36a426ffea676c43ac2c
+
 st.text("Dataset used from UCI repository: https://archive.ics.uci.edu/ml/datasets/Lenses")
 st.text("Age group of the patient: (1)Young (2)Pre-presbyopic (3)Presbyopic")
 st.text("Spectacle prescription:  (1)myope (2)hypermetrope")
 st.text("Astigmatic: (1)No, (2)Yes")
 st.text("Tear production rate: (1) Reduced, (2) Normal")
 
-<<<<<<< HEAD
-#image = Image.open('https://www.pexels.com/photo/person-holding-silver-wedding-band-5843337/')
-st.image('https://www.pexels.com/photo/person-holding-silver-wedding-band-5843337/', use_column_width=True)
-=======
 
->>>>>>> 707d7bca8c37ea75f3ff36a426ffea676c43ac2c
+
+
+
 st.subheader('Please fill in the details on the left sidebar and click on the button below!')
 
 
