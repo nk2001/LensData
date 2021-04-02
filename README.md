@@ -11,3 +11,6 @@ Files in this directory:
 2. Procfile - Required file for deployment
 3. setup.sh - setup and configuration file support for deployment
 4. requirements.txt - list of libraries that the application requires to run. 
+
+
+Heroku deployment is here. https://dashboard.heroku.com/apps/lensdata
