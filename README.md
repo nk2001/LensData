@@ -13,4 +13,3 @@ Files in this directory:
 4. requirements.txt - list of libraries that the application requires to run. 
 
 
-Heroku deployment is here. http://lensdata.herokuapp.com/
